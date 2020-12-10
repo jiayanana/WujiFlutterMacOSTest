@@ -1,0 +1,6 @@
+use_frameworks!
+target 'WujiFlutterMacOSTest_Tests' do
+  pod 'WujiFlutterMacOSTest', :path => '../'
+  
+  
+end
