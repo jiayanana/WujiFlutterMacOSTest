@@ -18,5 +18,5 @@
   "platforms": {
     "osx": "10.10"
   },
-  "vendored_frameworks": "WujiFlutterMacOSTest/*.{framework}"
+  "vendored_frameworks": "WujiFlutterMacOSTest/*.framework"
 }

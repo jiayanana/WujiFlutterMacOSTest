@@ -31,7 +31,7 @@ s.description  = <<-DESC
   s.platform = :osx
   s.osx.deployment_target = "10.10"
   
-  s.vendored_frameworks = 'WujiFlutterMacOSTest/*.{framework}'
+  s.vendored_frameworks = 'WujiFlutterMacOSTest/*.framework'
   #s.source_files = 'WujiFlutterMacOSTest/Classes/**/*'
   # s.resource_bundles = {
   #   'WujiFlutterMacOSTest' => ['WujiFlutterMacOSTest/Assets/*.png']

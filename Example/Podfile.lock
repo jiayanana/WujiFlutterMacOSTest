@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WujiFlutterMacOSTest: af526b888f7dc8b4b068edf1cf7e5a2972e421a4
+  WujiFlutterMacOSTest: 5b73a9bf081a689c48a9c66434d4e1cedc70b2ba
 
 PODFILE CHECKSUM: 3917019b87be6d7ab5576b74a0d890a045a672fb
 
