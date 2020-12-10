@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WujiFlutterMacOSTest'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of WujiFlutterMacOSTest.'
+  s.summary          = 'WujiFlutterMacOSTest ceshi'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,9 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+s.description  = <<-DESC
+    一个用来实现多主题管理的 iOS 库，一个测试的库
+               DESC
 
   s.homepage         = 'https://github.com/jiayanana/WujiFlutterMacOSTest'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
@@ -30,9 +30,14 @@ TODO: Add long description of the pod here.
 
   s.platform = :osx
   s.osx.deployment_target = "10.10"
-
-  s.source_files = 'WujiFlutterMacOSTest/Classes/**/*'
-
+  
+  s.vendored_frameworks = 'WujiFlutterMacOSTest/framework_mac/*.{framework}'
+  s.pod_target_xcconfig = {
+      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+    }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
+#  s.source_files = 'WujiFlutterMacOSTest/Classes/**/*'
   # s.resource_bundles = {
   #   'WujiFlutterMacOSTest' => ['WujiFlutterMacOSTest/Assets/*.png']
   # }

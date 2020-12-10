@@ -1,0 +1,16 @@
+PODS:
+  - WujiFlutterMacOSTest (0.1.0)
+
+DEPENDENCIES:
+  - WujiFlutterMacOSTest (from `../`)
+
+EXTERNAL SOURCES:
+  WujiFlutterMacOSTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WujiFlutterMacOSTest: 45f45d37e42deef21da0a34c2a435c8ce182f974
+
+PODFILE CHECKSUM: 3917019b87be6d7ab5576b74a0d890a045a672fb
+
+COCOAPODS: 1.10.0

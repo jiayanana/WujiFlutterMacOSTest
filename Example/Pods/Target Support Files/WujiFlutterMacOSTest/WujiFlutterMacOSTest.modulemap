@@ -1,0 +1,6 @@
+framework module WujiFlutterMacOSTest {
+  umbrella header "WujiFlutterMacOSTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

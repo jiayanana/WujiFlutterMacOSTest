@@ -12,11 +12,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		51B2DA462F5E3C1C7BF9EF70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		51B2DA462F5E3C1C7BF9EF70 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6A4F74C50D96420CF474BB70 /* Pods_WujiFlutterMacOSTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WujiFlutterMacOSTest_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		987E8A598985154A50761491 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		987E8A598985154A50761491 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A9BAFE066C1A16E939687005 /* Pods-WujiFlutterMacOSTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WujiFlutterMacOSTest_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WujiFlutterMacOSTest_Tests/Pods-WujiFlutterMacOSTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		D873BBBB7EF4964B94385666 /* WujiFlutterMacOSTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WujiFlutterMacOSTest.podspec; path = ../WujiFlutterMacOSTest.podspec; sourceTree = "<group>"; };
+		D873BBBB7EF4964B94385666 /* WujiFlutterMacOSTest.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WujiFlutterMacOSTest.podspec; path = ../WujiFlutterMacOSTest.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		ED83F68A20348A760038D96B /* WujiFlutterMacOSTest_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WujiFlutterMacOSTest_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED83F68E20348A760038D96B /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		ED83F69020348A760038D96B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -41,7 +41,6 @@
 				A9BAFE066C1A16E939687005 /* Pods-WujiFlutterMacOSTest_Tests.debug.xcconfig */,
 				FD12F107768BA63F76104CB0 /* Pods-WujiFlutterMacOSTest_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -123,10 +122,6 @@
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					ED83F67720348A760038D96B = {
-						CreatedOnToolsVersion = 9.0;
-						ProvisioningStyle = Automatic;
-					};
 					ED83F68920348A760038D96B = {
 						CreatedOnToolsVersion = 9.0;
 						ProvisioningStyle = Automatic;
