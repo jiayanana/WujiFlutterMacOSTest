@@ -1,6 +1,6 @@
 import XCTest
-import WujiFlutterMacOSTest
-
+import WujiRTCFramework
+import WebRTC
 class Tests: XCTestCase {
     
     override func setUp() {

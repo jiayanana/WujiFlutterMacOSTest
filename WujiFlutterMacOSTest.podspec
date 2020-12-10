@@ -31,13 +31,8 @@ s.description  = <<-DESC
   s.platform = :osx
   s.osx.deployment_target = "10.10"
   
-  s.vendored_frameworks = 'WujiFlutterMacOSTest/framework_mac/*.{framework}'
-  s.pod_target_xcconfig = {
-      'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-    }
-  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  
-#  s.source_files = 'WujiFlutterMacOSTest/Classes/**/*'
+  s.vendored_frameworks = 'WujiFlutterMacOSTest/*.{framework}'
+  #s.source_files = 'WujiFlutterMacOSTest/Classes/**/*'
   # s.resource_bundles = {
   #   'WujiFlutterMacOSTest' => ['WujiFlutterMacOSTest/Assets/*.png']
   # }

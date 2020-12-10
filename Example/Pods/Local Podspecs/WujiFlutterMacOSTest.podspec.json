@@ -1,8 +1,8 @@
 {
   "name": "WujiFlutterMacOSTest",
   "version": "0.1.0",
-  "summary": "A short description of WujiFlutterMacOSTest.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "WujiFlutterMacOSTest ceshi",
+  "description": "一个用来实现多主题管理的 iOS 库，一个测试的库",
   "homepage": "https://github.com/jiayanana/WujiFlutterMacOSTest",
   "license": {
     "type": "MIT",
@@ -18,5 +18,5 @@
   "platforms": {
     "osx": "10.10"
   },
-  "source_files": "WujiFlutterMacOSTest/Classes/**/*"
+  "vendored_frameworks": "WujiFlutterMacOSTest/*.{framework}"
 }
