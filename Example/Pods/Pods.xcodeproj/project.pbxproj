@@ -6,26 +6,18 @@
 	objectVersion = 48;
 	objects = {
 
-/* Begin PBXAggregateTarget section */
-		F7F3936E3FA5DF78193D5516DF13C69F /* WujiFlutterMacOSTest */ = {
-			isa = PBXAggregateTarget;
-			buildConfigurationList = 3FA3F63CE51AD4A9D8ED193D76B5B400 /* Build configuration list for PBXAggregateTarget "WujiFlutterMacOSTest" */;
-			buildPhases = (
-			);
-			dependencies = (
-			);
-			name = WujiFlutterMacOSTest;
-		};
-/* End PBXAggregateTarget section */
-
 /* Begin PBXBuildFile section */
+		1469370E4FBCD0AF6F94C7AFF22AC205 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
+		1D5512132EF58A10FED1DE386923926D /* WujiFlutterMacOSTest-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7D0232B2D17AD0614EA06BBC1A96A40 /* WujiFlutterMacOSTest-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AA65A1458724CD56F19AB2FB2B1F442 /* WujiFlutterMacOSTest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3C0175E8028B82FA408743FF5F67EEE /* WujiFlutterMacOSTest-dummy.m */; };
 		A6E5574A534F2B1D76FBD3DF341BB968 /* Pods-WujiFlutterMacOSTest_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 415D56F20A79E54394128A75030E7428 /* Pods-WujiFlutterMacOSTest_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE49FBD4BAC5CE75C3527E198BD5FB3F /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082B2ABDD858557056645119776F3A54 /* ReplaceMe.swift */; };
 		D5E116DBF67D6212CE0E3A65E44D807B /* Pods-WujiFlutterMacOSTest_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE245E7C297E9837F8E4B6DBD3B03DFE /* Pods-WujiFlutterMacOSTest_Tests-dummy.m */; };
 		FFD1F0E61E981D00DB26F65E1082F5EC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D54B6D827290A40C055CC1D7BE1A5ACD /* PBXContainerItemProxy */ = {
+		711F3A4B110D057A88EC30EC28395193 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -35,28 +27,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		10A55A7815C74B311225EC829EA9D754 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		044343AFD9E701A1561B1FC96600D624 /* WujiFlutterMacOSTest.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WujiFlutterMacOSTest.modulemap; sourceTree = "<group>"; };
+		082B2ABDD858557056645119776F3A54 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WujiFlutterMacOSTest/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		1BF8CC1A8C016A63855D847928D37814 /* Pods-WujiFlutterMacOSTest_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WujiFlutterMacOSTest_Tests-Info.plist"; sourceTree = "<group>"; };
+		28094DD58DC369320A7B4CA5919C5469 /* WujiFlutterMacOSTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WujiFlutterMacOSTest.framework; path = WujiFlutterMacOSTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABE32EF4C69E75B98D1CB9AD20C1ECB /* WujiFlutterMacOSTest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WujiFlutterMacOSTest-prefix.pch"; sourceTree = "<group>"; };
 		415D56F20A79E54394128A75030E7428 /* Pods-WujiFlutterMacOSTest_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WujiFlutterMacOSTest_Tests-umbrella.h"; sourceTree = "<group>"; };
-		42A265B0E7D9480E3E2E2704A5A23A7F /* WujiFlutterMacOSTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WujiFlutterMacOSTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6E7DA30DB801E2B83B05E0C5EC72FF4C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		855AAE0C98EEF2D813B99E49627356C9 /* WujiFlutterMacOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WujiFlutterMacOSTest.debug.xcconfig; sourceTree = "<group>"; };
+		46BAAFED3AB087FD9D699D2DA25FF5F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4D2B71FD9015D8F89657A92E3DB74DEC /* WujiFlutterMacOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WujiFlutterMacOSTest.release.xcconfig; sourceTree = "<group>"; };
+		57DDF8E03F643E47CFA2B286BC1DB39E /* WujiFlutterMacOSTest-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WujiFlutterMacOSTest-Info.plist"; sourceTree = "<group>"; };
+		760FD724F23A6AD6B424BE91F4D46435 /* WujiRTCFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WujiRTCFramework.framework; path = WujiFlutterMacOSTest/WujiRTCFramework.framework; sourceTree = "<group>"; };
 		8DA75F297FA8F068BEC94C43394536D6 /* Pods-WujiFlutterMacOSTest_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WujiFlutterMacOSTest_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		97D7FE9CBCB1BBCE621F24A7E07838C3 /* Pods_WujiFlutterMacOSTest_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WujiFlutterMacOSTest_Tests.framework; path = "Pods-WujiFlutterMacOSTest_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE67F0980EC16D8653D40D07DA667D60 /* WujiFlutterMacOSTest.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WujiFlutterMacOSTest.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B0FDB98A9EE621EAC0C8ADBB14F3F754 /* Pods-WujiFlutterMacOSTest_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WujiFlutterMacOSTest_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B2912D220A1EEF0BE0320FE76D6921E0 /* WujiFlutterMacOSTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WujiFlutterMacOSTest.debug.xcconfig; sourceTree = "<group>"; };
+		B3C0175E8028B82FA408743FF5F67EEE /* WujiFlutterMacOSTest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WujiFlutterMacOSTest-dummy.m"; sourceTree = "<group>"; };
+		B7D0232B2D17AD0614EA06BBC1A96A40 /* WujiFlutterMacOSTest-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WujiFlutterMacOSTest-umbrella.h"; sourceTree = "<group>"; };
 		B8F7DF5CCE011EDFC408F6F7D6E24108 /* Pods-WujiFlutterMacOSTest_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WujiFlutterMacOSTest_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		BBCD927CFC432EF3FD633F4FBF363094 /* Pods-WujiFlutterMacOSTest_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WujiFlutterMacOSTest_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C1430F003D39D9906881A6AC724B7931 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk/System/Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
-		C9512576976D29519090C90BEDFC7017 /* WujiFlutterMacOSTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WujiFlutterMacOSTest.release.xcconfig; sourceTree = "<group>"; };
+		C18E912B3F82FABF03D76D0AB7652AE7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		CDD14D45E111EB7A12B0355AC6197F12 /* Pods-WujiFlutterMacOSTest_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WujiFlutterMacOSTest_Tests.modulemap"; sourceTree = "<group>"; };
-		DEC8B8A5E6E822B1384B03218D948FBE /* WujiRTCFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WujiRTCFramework.framework; path = WujiFlutterMacOSTest/WujiRTCFramework.framework; sourceTree = "<group>"; };
 		E72D411A5D493FCC69FBF1B2A73ECA47 /* Pods-WujiFlutterMacOSTest_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WujiFlutterMacOSTest_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		EC51B866C96430E3867B91473200B9C9 /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = WujiFlutterMacOSTest/WebRTC.framework; sourceTree = "<group>"; };
+		E82FD91016BD5DFA0BBDCCF6F31D241F /* WebRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebRTC.framework; path = WujiFlutterMacOSTest/WebRTC.framework; sourceTree = "<group>"; };
 		FE245E7C297E9837F8E4B6DBD3B03DFE /* Pods-WujiFlutterMacOSTest_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WujiFlutterMacOSTest_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3E4BDE2242B1D351FBFD29D2B25641B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1469370E4FBCD0AF6F94C7AFF22AC205 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		CBB7D62DAB35A7D929A1F2516648164E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -68,12 +75,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0D8B19F15080B78EDBD462D665C8FDB0 /* WujiFlutterMacOSTest */ = {
+			isa = PBXGroup;
+			children = (
+				082B2ABDD858557056645119776F3A54 /* ReplaceMe.swift */,
+				DB36D68BAFD400388E0CA3F2C190CFF9 /* Frameworks */,
+				7DFBCB08D1CF8742FEF7BA570ED593E0 /* Pod */,
+				BF7219767051C1C0F2B445D0F2E9EAF2 /* Support Files */,
+			);
+			name = WujiFlutterMacOSTest;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		26D94DBE02347E14E1EB7FC1FFD46F37 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
 				4D1C520606517586D813764925E00827 /* Pods-WujiFlutterMacOSTest_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		44C38FCECD713C54A7FB68E4DF6D2E47 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				97D7FE9CBCB1BBCE621F24A7E07838C3 /* Pods_WujiFlutterMacOSTest_Tests.framework */,
+				28094DD58DC369320A7B4CA5919C5469 /* WujiFlutterMacOSTest.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		4D1C520606517586D813764925E00827 /* Pods-WujiFlutterMacOSTest_Tests */ = {
@@ -93,29 +121,34 @@
 			path = "Target Support Files/Pods-WujiFlutterMacOSTest_Tests";
 			sourceTree = "<group>";
 		};
-		66890A575F9E187D0ED2B022B8AF7832 /* Development Pods */ = {
+		689845365C6554593C7BC239D69EE76C /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F52098140CA4CF2B02508ECBB87A2B10 /* WujiFlutterMacOSTest */,
+				0D8B19F15080B78EDBD462D665C8FDB0 /* WujiFlutterMacOSTest */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		940CA0D5C4EDD3B16317DED6E95D81A9 /* Pod */ = {
+		7DFBCB08D1CF8742FEF7BA570ED593E0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				6E7DA30DB801E2B83B05E0C5EC72FF4C /* LICENSE */,
-				10A55A7815C74B311225EC829EA9D754 /* README.md */,
-				42A265B0E7D9480E3E2E2704A5A23A7F /* WujiFlutterMacOSTest.podspec */,
+				46BAAFED3AB087FD9D699D2DA25FF5F0 /* LICENSE */,
+				C18E912B3F82FABF03D76D0AB7652AE7 /* README.md */,
+				AE67F0980EC16D8653D40D07DA667D60 /* WujiFlutterMacOSTest.podspec */,
 			);
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		9A70735B0CEAFB70BA2FDE07065F079E /* Support Files */ = {
+		BF7219767051C1C0F2B445D0F2E9EAF2 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				855AAE0C98EEF2D813B99E49627356C9 /* WujiFlutterMacOSTest.debug.xcconfig */,
-				C9512576976D29519090C90BEDFC7017 /* WujiFlutterMacOSTest.release.xcconfig */,
+				044343AFD9E701A1561B1FC96600D624 /* WujiFlutterMacOSTest.modulemap */,
+				B3C0175E8028B82FA408743FF5F67EEE /* WujiFlutterMacOSTest-dummy.m */,
+				57DDF8E03F643E47CFA2B286BC1DB39E /* WujiFlutterMacOSTest-Info.plist */,
+				3ABE32EF4C69E75B98D1CB9AD20C1ECB /* WujiFlutterMacOSTest-prefix.pch */,
+				B7D0232B2D17AD0614EA06BBC1A96A40 /* WujiFlutterMacOSTest-umbrella.h */,
+				B2912D220A1EEF0BE0320FE76D6921E0 /* WujiFlutterMacOSTest.debug.xcconfig */,
+				4D2B71FD9015D8F89657A92E3DB74DEC /* WujiFlutterMacOSTest.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/WujiFlutterMacOSTest";
@@ -125,11 +158,20 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				66890A575F9E187D0ED2B022B8AF7832 /* Development Pods */,
+				689845365C6554593C7BC239D69EE76C /* Development Pods */,
 				E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */,
-				FE1FBA87D40C5055DB8337068FA95F1A /* Products */,
+				44C38FCECD713C54A7FB68E4DF6D2E47 /* Products */,
 				26D94DBE02347E14E1EB7FC1FFD46F37 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DB36D68BAFD400388E0CA3F2C190CFF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E82FD91016BD5DFA0BBDCCF6F31D241F /* WebRTC.framework */,
+				760FD724F23A6AD6B424BE91F4D46435 /* WujiRTCFramework.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E0A1E60606E0BF6E2E10F1F01350DFE8 /* Frameworks */ = {
@@ -148,37 +190,17 @@
 			name = "OS X";
 			sourceTree = "<group>";
 		};
-		E50C87F475369B060464672585AE6E0A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EC51B866C96430E3867B91473200B9C9 /* WebRTC.framework */,
-				DEC8B8A5E6E822B1384B03218D948FBE /* WujiRTCFramework.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		F52098140CA4CF2B02508ECBB87A2B10 /* WujiFlutterMacOSTest */ = {
-			isa = PBXGroup;
-			children = (
-				E50C87F475369B060464672585AE6E0A /* Frameworks */,
-				940CA0D5C4EDD3B16317DED6E95D81A9 /* Pod */,
-				9A70735B0CEAFB70BA2FDE07065F079E /* Support Files */,
-			);
-			name = WujiFlutterMacOSTest;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		FE1FBA87D40C5055DB8337068FA95F1A /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				97D7FE9CBCB1BBCE621F24A7E07838C3 /* Pods_WujiFlutterMacOSTest_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		34B498F99CFA19E8D6CAEFCD9A1FEFC7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D5512132EF58A10FED1DE386923926D /* WujiFlutterMacOSTest-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		ACCCDB7B47AA0F51573B0C7D20F5F20D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -202,11 +224,29 @@
 			buildRules = (
 			);
 			dependencies = (
-				AD6CE9511E46F4816C70F683C5F6C570 /* PBXTargetDependency */,
+				D2F661C44DF82D08C72617618A04C95B /* PBXTargetDependency */,
 			);
 			name = "Pods-WujiFlutterMacOSTest_Tests";
 			productName = "Pods-WujiFlutterMacOSTest_Tests";
 			productReference = 97D7FE9CBCB1BBCE621F24A7E07838C3 /* Pods_WujiFlutterMacOSTest_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7F3936E3FA5DF78193D5516DF13C69F /* WujiFlutterMacOSTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 19C5141C289B9AB6289D464F511257B0 /* Build configuration list for PBXNativeTarget "WujiFlutterMacOSTest" */;
+			buildPhases = (
+				34B498F99CFA19E8D6CAEFCD9A1FEFC7 /* Headers */,
+				5116F18A32BAFA5C0794A8CA98334769 /* Sources */,
+				3E4BDE2242B1D351FBFD29D2B25641B3 /* Frameworks */,
+				36DDC243839C7E190F6A3807AC8C369E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WujiFlutterMacOSTest;
+			productName = WujiFlutterMacOSTest;
+			productReference = 28094DD58DC369320A7B4CA5919C5469 /* WujiFlutterMacOSTest.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -227,7 +267,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = FE1FBA87D40C5055DB8337068FA95F1A /* Products */;
+			productRefGroup = 44C38FCECD713C54A7FB68E4DF6D2E47 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -238,6 +278,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		36DDC243839C7E190F6A3807AC8C369E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B2C1937017F0FFC9BD295D8A2E4A25C0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -248,6 +295,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		5116F18A32BAFA5C0794A8CA98334769 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE49FBD4BAC5CE75C3527E198BD5FB3F /* ReplaceMe.swift in Sources */,
+				6AA65A1458724CD56F19AB2FB2B1F442 /* WujiFlutterMacOSTest-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		53C9E334C7C79081FBD2E680D6F0BD7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -259,11 +315,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		AD6CE9511E46F4816C70F683C5F6C570 /* PBXTargetDependency */ = {
+		D2F661C44DF82D08C72617618A04C95B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = WujiFlutterMacOSTest;
 			target = F7F3936E3FA5DF78193D5516DF13C69F /* WujiFlutterMacOSTest */;
-			targetProxy = D54B6D827290A40C055CC1D7BE1A5ACD /* PBXContainerItemProxy */;
+			targetProxy = 711F3A4B110D057A88EC30EC28395193 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -302,18 +358,35 @@
 			};
 			name = Debug;
 		};
-		261D23034B4A3FD4A1E9E5304FE2483E /* Debug */ = {
+		40B1D5729F5B44928B200A758FB857D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 855AAE0C98EEF2D813B99E49627356C9 /* WujiFlutterMacOSTest.debug.xcconfig */;
+			baseConfigurationReference = B2912D220A1EEF0BE0320FE76D6921E0 /* WujiFlutterMacOSTest.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WujiFlutterMacOSTest/WujiFlutterMacOSTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WujiFlutterMacOSTest/WujiFlutterMacOSTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/WujiFlutterMacOSTest/WujiFlutterMacOSTest.modulemap";
+				PRODUCT_MODULE_NAME = WujiFlutterMacOSTest;
+				PRODUCT_NAME = WujiFlutterMacOSTest;
 				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -383,21 +456,6 @@
 			};
 			name = Debug;
 		};
-		93C64E8C1C6EB1E4B3E45B3C157A96A6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C9512576976D29519090C90BEDFC7017 /* WujiFlutterMacOSTest.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				COMBINE_HIDPI_IMAGES = YES;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				SDKROOT = macosx;
-			};
-			name = Release;
-		};
 		C0AB89DB0533D8E2B9201FA6579824B7 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -460,6 +518,38 @@
 			};
 			name = Release;
 		};
+		F95586ABE5EA8FDA9174C628E8244423 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2B71FD9015D8F89657A92E3DB74DEC /* WujiFlutterMacOSTest.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WujiFlutterMacOSTest/WujiFlutterMacOSTest-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WujiFlutterMacOSTest/WujiFlutterMacOSTest-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/WujiFlutterMacOSTest/WujiFlutterMacOSTest.modulemap";
+				PRODUCT_MODULE_NAME = WujiFlutterMacOSTest;
+				PRODUCT_NAME = WujiFlutterMacOSTest;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F9816116C06C781EE2887749169724B4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BBCD927CFC432EF3FD633F4FBF363094 /* Pods-WujiFlutterMacOSTest_Tests.release.xcconfig */;
@@ -497,11 +587,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FA3F63CE51AD4A9D8ED193D76B5B400 /* Build configuration list for PBXAggregateTarget "WujiFlutterMacOSTest" */ = {
+		19C5141C289B9AB6289D464F511257B0 /* Build configuration list for PBXNativeTarget "WujiFlutterMacOSTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				261D23034B4A3FD4A1E9E5304FE2483E /* Debug */,
-				93C64E8C1C6EB1E4B3E45B3C157A96A6 /* Release */,
+				40B1D5729F5B44928B200A758FB857D6 /* Debug */,
+				F95586ABE5EA8FDA9174C628E8244423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

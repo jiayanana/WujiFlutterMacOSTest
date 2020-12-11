@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WujiFlutterMacOSTest'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'WujiFlutterMacOSTest ceshi'
 
 # This description is used to generate tags and improve search results.
@@ -32,7 +32,7 @@ s.description  = <<-DESC
   s.osx.deployment_target = "10.10"
   
   s.vendored_frameworks = 'WujiFlutterMacOSTest/*.framework'
-  #s.source_files = 'WujiFlutterMacOSTest/Classes/**/*'
+  s.source_files = 'WujiFlutterMacOSTest/Classes/**/*'
   # s.resource_bundles = {
   #   'WujiFlutterMacOSTest' => ['WujiFlutterMacOSTest/Assets/*.png']
   # }
