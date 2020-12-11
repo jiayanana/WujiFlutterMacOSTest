@@ -33,6 +33,7 @@ s.description  = <<-DESC
   
   s.vendored_frameworks = 'WujiFlutterMacOSTest/*.framework'
   s.source_files = 'WujiFlutterMacOSTest/Classes/**/*'
+  s.swift_version = '4.0'
   # s.resource_bundles = {
   #   'WujiFlutterMacOSTest' => ['WujiFlutterMacOSTest/Assets/*.png']
   # }
